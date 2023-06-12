@@ -1,0 +1,106 @@
+
+.body{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Logo9z{
+    width: 300px;
+    margin-left: 800px;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+ul li{
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#victoria{
+    width: 900px;
+    height: 600px;
+    display: block;
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+#grito{
+    width: 900px;
+    height: 600px;
+    display: block;
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+p{
+    color: white;
+    font-size: 35px;
+}
+
+
+.Footer{
+    background-color: rgb(90, 10, 128);
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    justify-content: center;
+}
+
+.Footer img{
+    height: 60px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+
+.Footer h6{
+    padding-bottom: 20px;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+.Redes{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Redes p{
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+a{
+    display: inline;
+    color: white;
+}
+
+
+.body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: black;
+}
+
+#logojugadores{
+    width: 300px;
+    margin-left: 800px;
+}
+
