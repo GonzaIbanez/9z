@@ -1,393 +1,141 @@
-/* Inicio  */
-
-.body{
-  background-color: rgb(0, 0, 0);
+/* Variables*/
+/*Inicio*/
+.body {
+  background-color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-#Logo9z{
+.body header {
+  background-color: black;
+}
+.body header img {
   width: 300px;
   margin-left: 800px;
 }
-
-header{
-  background-color: rgb(0, 0, 0);
+.body header ul li {
+  display: inline;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
-
-h1{
+.body h1 {
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 50px;
   color: white;
 }
 
-ul li{
-  display: inline;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-}
-
-#victoria{
+.main img {
   width: 900px;
   height: 500px;
   display: block;
   margin-top: 35px;
   margin-left: 100px;
 }
-
-#grito{
-  width: 900px;
-  height: 500px;
-  display: block;
-  margin-top: 35px;
-  margin-left: 100px;
-}
-
-p{
+.main p {
   color: white;
-  font-size: 35px;
+  font-size: 25px;
 }
 
-/* Footer */
-
-.Footer{
+.Footer {
   background-color: rgb(90, 10, 128);
   font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   display: flex;
   flex-direction: column;
   padding-left: 50px;
   justify-content: center;
 }
-
-.Footer img{
+.Footer img {
   height: 60px;
   padding-bottom: 5px;
   padding-right: 20px;
 }
-
-.Footer h6{
+.Footer h6 {
   padding-bottom: 20px;
   font-size: 40px;
   padding-left: 10px;
   padding-top: 10px;
 }
-
-
-.Redes{
+.Footer .Redes {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
 }
-
-.Redes p{
+.Footer .Redes img {
+  height: 60px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+}
+.Footer .Redes p {
   padding-bottom: 15px;
   padding-left: 15px;
 }
-
-a{
+.Footer .Redes a {
   display: inline;
   color: white;
 }
 
-/* Jugadores */
-
-#logojugadores{
+/* Jugadores*/
+#logojugadores {
   width: 300px;
   margin-left: 800px;
 }
 
-#Dgtfoto{
+#Dgtfoto {
   width: 350px;
   margin-left: 150px;
   margin-top: 100px;
 }
 
-#Tryfoto{
+#Tryfoto {
   width: 500px;
   margin-left: 150px;
   margin-top: 100px;
 }
 
-#Maxfoto{
+#Maxfoto {
   width: 350px;
   margin-left: 300px;
   margin-top: 100px;
 }
 
-#Budafoto{
+#Budafoto {
   width: 350px;
   margin-left: 150px;
   margin-top: 100px;
   margin-right: 100px;
 }
 
-#Dav1dfoto{
+#Dav1dfoto {
   width: 550px;
   margin-left: 450px;
   margin-top: 100px;
-} 
-
-
-
-
-
-
-
-.body2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh;
-  background-color: black;
 }
 
-.header2 {
-  text-align: center;
-}
-
-#Logo9z {
-  display: block;
-  margin: 0 auto;
-}
-
-.main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.main > div {
-  flex: 0 0 50%;
-  padding: 20px;
-  text-align: center;
-}
-
-#primerimagen,
-#segundaimagen {
-  max-width: 100%;
-  height: auto;
-}
-
-.Footer {
-  background-color: rgb(90, 10, 128);
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-.Redes img {
-  width: 30px;
-  height: 30px;
-  margin-right: 5px;
-}
-
-
-#galeria1{
+/* Galeria */
+#galeria1, #galeria5, #galeria4, #galeria3, #galeria2 {
   width: 900px;
   height: 800px;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 
-#galeria2{
-  width: 900px;
-  height: 800px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom:10px;
-}
-
-#galeria3{
-  width: 900px;
-  height: 800px;
-  padding-left: 10px;
-  padding-right: 10px;
+#galeria3 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-#galeria4{
-  width: 900px;
-  height: 800px;
-  padding-left: 10px;
-  padding-right: 10px;
+#galeria4 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-
-#galeria5{
-  width: 900px;
-  height: 800px;
+#galeria5 {
   padding-left: 450px;
-  padding-right: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-
-
-
-
-@media screen and (max-width:1500px){
-  .body2{
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  #primerimagen{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    zoom: 70%
-  }
-
-  #textoimagen1{
-    zoom: 60%;
-    justify-content: center;
-    width: 100%;
-  }
-
-  #segundaimagen{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    zoom: 70%;
-  }
-
-  #textoimagen2{
-    zoom: 60%;
-    justify-content: center;
-    width: 100%;
-  }
-}
-
-
-
-@media screen and (max-width:1300px){
-.body2{
-  flex-direction: column;
-  justify-content: center;
-  zoom: 80%;
-  max-width: 1700px;
-
-}
-
-
-  #primerimagen{
-    width: 900px;
-  }
-
-
-
-
-
-
-
-
-}
-
-
-
-/* Media tamaño Tablet*/
-
-@media screen and (max-width:768px){
-  .body2{
-      width: 100%;
-      zoom: 50%;
-      position: center;
-      display: flex;
-      max-width: 100%;
-
-  }
-
-  #primerimagen{
-    width: 100%;
-  }
-
-
-  #segundaimagen{
-    width: 100%;
-  }
-
-  .p{
-    width: 100%;
-  }
-
-.Footer{
-  width: 100%;
-}
-
-#galeria5{
-  padding-right: 300px;
-}
-
-
-}
-
-
-@media screen and (max-width:580px){
-  .body2{
-      width: 100%;
-      zoom: 50%;
-      position: center;
-      flex-direction: column; 
-      max-width: 1300px;
-  }
-
-  #primerimagen{
-    width: 100%;
-  }
-
-  #textoimagen1{
-    flex-direction: column;
-    font-size: 30px;
-  }
-
-
-  #segundaimagen{
-    width: 100%;
-  }
-
-  #textoimagen2{
-    font-size: 30px;
-  }
-
-
-.Footer{
-  width: 100%;
-
-  
-  
-}
-
-}
-
-
-@media screen and (max-width:450px){
-  .body2{
-    flex-direction: column;
-    max-width: 100%;
-    
-  }
-
-  #primerimagen{
-    max-width: 100%;
-    padding-top: 0cap;
-
-  }
-
-#logojugadores{
-    width: 300px;
-    margin-left: 800px;
-}
-}
+/*# sourceMappingURL=estilos.css.map */
