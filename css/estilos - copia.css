@@ -81,9 +81,10 @@ p{
   margin-bottom: 20px;
 }
 
-.Redes p{
-  padding-bottom: 15px;
-  padding-left: 15px;
+.Redes {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 a{
