@@ -11,9 +11,6 @@
     .body{
         background-color: $Colorprincipal;
         @include fuente;
-        display: flex;
-        flex-direction:column;
-        justify-content: center;
         header{
             background-color: $Colorprincipal;
             img{
@@ -21,7 +18,7 @@
                 margin-left: 800px;
             }
             ul li{
-                display: inline;
+                display: flex;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 font-size: 20px;
             }
@@ -33,26 +30,16 @@
         color: white;
     }
 }
-    .main{
-        img{
-            width: 900px;
-            height: 500px;
-            display: block;
-            margin-top: 35px;
-            margin-left: 100px;
-        }
-        p{
-            color: white;
-            font-size: 25px;
-        }
+    p{
+        color: white;
+        font-size: 25px;
     }
+
 .Footer{
     background-color: rgb(90, 10, 128);
     font-size: 20px;
     @include fuente;
     font-weight: bold;
-    display: flex;
-    flex-direction: column;
     padding-left: 50px;
     justify-content: center;
     img{
@@ -94,32 +81,32 @@
     margin-left: 800px;
 }
 
-#Dgtfoto{
+.Dgtfoto{
     width: 350px;
     margin-left: 150px;
     margin-top: $Top;
 }
 
-#Tryfoto{
+.Tryfoto{
     width: 500px;
     margin-left: 150px;
     margin-top: $Top;
 }
 
-#Maxfoto{
+.Maxfoto{
     width: 350px;
     margin-left: 300px;
     margin-top: $Top;
 }
 
-#Budafoto{
+.Budafoto{
     width: 350px;
     margin-left: 150px;
     margin-top: $Top;
     margin-right: 100px;
 }
 
-#Dav1dfoto{
+.Dav1dfoto{
     width: 550px;
     margin-left: 450px;
     margin-top: $Top;
@@ -167,6 +154,7 @@
         zoom: 50%;
     }
 }
+
 
 
 
