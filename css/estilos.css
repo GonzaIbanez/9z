@@ -3,36 +3,66 @@
 /*Inicio*/
 .body {
   background-color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 .body header {
-  background-color: rgb(0, 0, 0);
+  background-color: black;
+}
+.body header nav {
+  display: flex;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
 }
 .body header img {
   width: auto;
-  margin-left: 800px;
+  justify-content: center;
+  display: flex;
+}
+.body header ul {
+  display: flex;
+  gap: 50px;
 }
 .body header ul li {
-  display:inline-block;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
+  width: 100%;
+  list-style: none;
 }
-.body h1 {
+.body header h1 {
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 50px;
   color: white;
+}
+.body main {
+  display: flex;
+  gap: 50px;
+}
+.body .victoria {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.body .grito {
+  width: 100%;
+}
+.body .hijo1 {
+  padding-left: 40px;
+  padding-top: 30px;
+  width: 3600px;
+}
+.body .hijo2 {
+  padding-right: 30px;
 }
 
 p {
   color: white;
-  font-size: 25px;
+  font-size: 30px;
+  padding-right: 20px;
+  border: 1px solid;
 }
 
 .Footer {
   background-color: rgb(90, 10, 128);
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   padding-left: 50px;
   justify-content: center;
@@ -105,29 +135,25 @@ p {
 }
 
 /* Galeria */
-#galeria1, #galeria5, #galeria4, #galeria3, #galeria2 {
-  width: 900px;
-  height: 800px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.galeria1, .galeria5, .galeria4, .galeria3, .galeria2 {
+  width: 100%;
 }
 
-#galeria3 {
+.hijogale {
+  padding-left: 25px;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-right: 25px;
 }
 
-#galeria4 {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.probando1 {
+  display: flex;
+  padding-bottom: 25px;
+  gap: 30px;
 }
 
-#galeria5 {
-  padding-left: 450px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.probando2 {
+  display: flex;
+  gap: 30px;
 }
 
 /* Tamaño tablet */
@@ -138,14 +164,3 @@ p {
 }
 
 /*# sourceMappingURL=estilos.css.map */
-
-.hijo1{
-  width: auto;
-
-}
-
-
-.imgCont .img1 {
-  display: flex;
-  width: auto;
-}

@@ -3,7 +3,7 @@
     $Colorprincipal: black;
     
     @mixin fuente{
-        font-family: Arial, Helvetica, sans-serif;
+        font-family:'Times New Roman', Times, serif;
     }
 
 
@@ -13,26 +13,57 @@
         @include fuente;
         header{
             background-color: $Colorprincipal;
+            nav{
+                display: flex;
+                width: 100%;
+                background-color: rgb(255, 255, 255);
+            }
             img{
-                width: 300px;
-                margin-left: 800px;
+                width: auto;
+                justify-content: center;
+                display: flex;
+            }
+            ul{
+                display: flex;
+                gap: 50px;
             }
             ul li{
-                display: flex;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 font-size: 20px;
+                width: 100%;
+                list-style: none;
             }
-        }
+        
         h1{
         text-align: center;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 50px;
         color: white;
     }
 }
+    main{
+        display: flex;
+        gap: 50px;
+    }
+    .victoria{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .grito{
+        width: 100%;
+    }
+    .hijo1{
+        padding-left: 40px;
+        padding-top: 30px;
+        width: 3600px;
+    }
+    .hijo2{
+        padding-right: 30px;
+    }
+}
     p{
         color: white;
-        font-size: 25px;
+        font-size: 30px;
+        padding-right: 20px;
+        border: 1px solid;
     }
 
 .Footer{
@@ -115,36 +146,41 @@
 /* Galeria */ 
 
 
-#galeria1{
-    width: 900px;
-    height: 800px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom:10px;
+.galeria1{
+    width: 100%;
 }
 
-#galeria2{
-    @extend #galeria1;
+.galeria2{
+    @extend .galeria1;
 }
 
-#galeria3{
-    @extend #galeria1;
+.galeria3{
+    @extend .galeria1;
+}
+
+.galeria4{
+    @extend .galeria1;
+}
+
+.galeria5{
+    @extend .galeria1;
+}
+
+.hijogale{
+    padding-left: 25px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-right: 25px;
 }
 
-#galeria4{
-    @extend #galeria1;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.probando1{
+    display: flex;
+    padding-bottom: 25px;
+    gap: 30px;
 }
 
-#galeria5{
-    @extend #galeria1;
-    padding-left: 450px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.probando2{
+    display: flex;
+    gap: 30px;
 }
 
 /* Tamaño tablet */
