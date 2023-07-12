@@ -18,8 +18,7 @@
                 width: 100%;
                 background-color: rgb(255, 255, 255);
             }
-            img{
-                width: auto;
+            .logoprincipal{
                 justify-content: center;
                 display: flex;
             }
@@ -39,6 +38,7 @@
         color: white;
     }
 }
+/*Main*/
     main{
         display: flex;
         gap: 50px;
@@ -58,13 +58,13 @@
     .hijo2{
         padding-right: 30px;
     }
-}
-    p{
+    .textinicio{
         color: white;
         font-size: 30px;
         padding-right: 20px;
         border: 1px solid;
     }
+}
 
 .Footer{
     background-color: rgb(90, 10, 128);
@@ -108,7 +108,7 @@
 /* Jugadores*/
 
 #logojugadores{
-    width: 300px;
+    width: 100%;
     margin-left: 800px;
 }
 
@@ -141,7 +141,14 @@
     width: 550px;
     margin-left: 450px;
     margin-top: $Top;
+    
 } 
+
+.contdgt{
+    display: flex;
+}
+
+
 
 /* Galeria */ 
 
@@ -176,11 +183,19 @@
     display: flex;
     padding-bottom: 25px;
     gap: 30px;
+    text-align: center;
+    p{
+        color: white;
+    }
 }
 
 .probando2{
     display: flex;
     gap: 30px;
+    text-align: center;
+    p{
+        color: white;
+    }
 }
 
 /* Tamaño tablet */

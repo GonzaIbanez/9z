@@ -4,6 +4,7 @@
 .body {
   background-color: black;
   font-family: "Times New Roman", Times, serif;
+  /*Main*/
 }
 .body header {
   background-color: black;
@@ -13,8 +14,7 @@
   width: 100%;
   background-color: rgb(255, 255, 255);
 }
-.body header img {
-  width: auto;
+.body header .logoprincipal {
   justify-content: center;
   display: flex;
 }
@@ -51,8 +51,7 @@
 .body .hijo2 {
   padding-right: 30px;
 }
-
-p {
+.body .textinicio {
   color: white;
   font-size: 30px;
   padding-right: 20px;
@@ -99,7 +98,7 @@ p {
 
 /* Jugadores*/
 #logojugadores {
-  width: 300px;
+  width: 100%;
   margin-left: 800px;
 }
 
@@ -134,6 +133,10 @@ p {
   margin-top: 100px;
 }
 
+.contdgt {
+  display: flex;
+}
+
 /* Galeria */
 .galeria1, .galeria5, .galeria4, .galeria3, .galeria2 {
   width: 100%;
@@ -149,11 +152,19 @@ p {
   display: flex;
   padding-bottom: 25px;
   gap: 30px;
+  text-align: center;
+}
+.probando1 p {
+  color: white;
 }
 
 .probando2 {
   display: flex;
   gap: 30px;
+  text-align: center;
+}
+.probando2 p {
+  color: white;
 }
 
 /* Tamaño tablet */
