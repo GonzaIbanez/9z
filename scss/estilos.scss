@@ -1,6 +1,6 @@
     /* Variables*/
     $Top: 100px;
-    $Colorprincipal: black;
+    $Colorprincipal: rgb(18, 2, 26);
     
     @mixin fuente{
         font-family:'Times New Roman', Times, serif;
@@ -16,7 +16,7 @@
             nav{
                 display: flex;
                 width: 100%;
-                background-color: rgb(255, 255, 255);
+                background-color: rgba(255, 255, 255, 0.39);
             }
             .logoprincipal{
                 justify-content: center;
@@ -30,18 +30,32 @@
                 font-size: 20px;
                 width: 100%;
                 list-style: none;
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                }
             }
-        
+        nav li:hover {
+            background-color: rgb(228, 150, 238);
+            color: rgb(0, 0, 0);
+        }
         h1{
         text-align: center;
         font-size: 50px;
-        color: white;
+        color: rgb(250, 250, 250);
     }
 }
+
+.main2 {
+    background-color: black;
+}
+
 /*Main*/
     main{
         display: flex;
         gap: 50px;
+        background-color: rgba(187, 162, 162, 0.397);
     }
     .victoria{
         width: 100%;
@@ -49,6 +63,7 @@
     }
     .grito{
         width: 100%;
+        padding-bottom: 30px;
     }
     .hijo1{
         padding-left: 40px;
@@ -60,14 +75,16 @@
     }
     .textinicio{
         color: white;
-        font-size: 30px;
+        font-size: 25px;
         padding-right: 20px;
-        border: 1px solid;
+        text-align: center;
+        padding-top: 30px;
     }
 }
 
+/*Footer*/
 .Footer{
-    background-color: rgb(90, 10, 128);
+    background-color: rgb(40, 22, 49);
     font-size: 20px;
     @include fuente;
     font-weight: bold;
@@ -78,32 +95,29 @@
         padding-bottom: 5px;
         padding-right: 20px;
     }
-    h6{
-        padding-bottom: 20px;
-        font-size: 40px;
-        padding-left: 10px;
-        padding-top: 10px;
+    h2{
+        display: flex;
+        justify-content: center;
+        color: rgb(238, 222, 222);
     }
     .Redes{
-        display: flex;
+        display:inline-flex;
         align-items: center;
         margin-bottom: 20px;
-        img{
-            height: 60px;
-            padding-bottom: 5px;
-            padding-right: 20px;
-        }
-        p{
-            padding-bottom: 15px;
-            padding-left: 15px;
-        }
-        a{
-            display: inline;
-            color: white;
-        }
+        justify-content: center;
+            .footerinsta {
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
+            }
+            .footertwitter {
+                @extend .footerinsta;
+            }
+        }
     }
-}
+
+
 
 /* Jugadores*/
 
@@ -113,7 +127,7 @@
 }
 
 .Dgtfoto{
-    width: 350px;
+    width: 300px;
     margin-left: 150px;
     margin-top: $Top;
 }
@@ -140,14 +154,23 @@
 .Dav1dfoto{
     width: 550px;
     margin-left: 450px;
-    margin-top: $Top;
+    margin-top: 75px;
     
 } 
 
-.contdgt{
+.padrejugadores1 {
     display: flex;
+    align-items: center;
+    p{
+        color: white;
+    }
 }
 
+.contdgt {
+    p{
+        color: white;
+    }
+}
 
 
 /* Galeria */ 
@@ -183,20 +206,62 @@
     display: flex;
     padding-bottom: 25px;
     gap: 30px;
-    text-align: center;
-    p{
-        color: white;
-    }
 }
 
 .probando2{
     display: flex;
     gap: 30px;
-    text-align: center;
-    p{
-        color: white;
-    }
 }
+
+
+
+
+/*Logros*/
+
+.logrosimg1 img {
+    width: 70%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logrosimg2 img {
+    width: 70%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.textlogros1 {
+    color: white;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.textlogros2 {
+    color: white;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Tamaño tablet */
 
