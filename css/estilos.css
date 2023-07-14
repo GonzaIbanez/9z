@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -289,7 +288,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Tamaño tablet */
+/* Media Queries */
 @media screen and (max-width: 1500px) {
   .body .hijo1 {
     width: 40%;
@@ -304,15 +303,48 @@
     width: 20vw;
   }
 }
-@media screen and (max-width: 1230px) {
-  .body .sectioninicio video {
-    width: 100vw;
-    height: 20vh;
+@media screen and (max-width: 992px) {
+  .body .header .padrelogo h1 {
+    font-size: 60px;
   }
 }
 @media screen and (max-width: 920px) {
   .body .textinicio {
     font-size: 18px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .body .header .nav ul {
+    gap: 35px;
+  }
+  .body .header .padrelogo h1 {
+    font-size: 45px;
+  }
+  .body main .textinicio {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .body .header .nav ul {
+    gap: 25px;
+  }
+  .body main .textinicio {
+    font-size: 13px;
+    padding-top: 35px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .body main .textinicio {
+    padding-top: 20px;
+  }
+  .body .header .padrelogo h1 {
+    font-size: 35px;
+  }
+  .body .header .nav ul {
+    gap: 20px;
+  }
+  .body .header .nav ul a {
+    font-size: 15px;
   }
 }
 

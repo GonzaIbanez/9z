@@ -377,7 +377,7 @@
 
 
 
-    /* Tamaño tablet */
+    /* Media Queries */
 
     @media screen and (max-width:1500px) {
         .body {
@@ -399,19 +399,18 @@
 
     }
 
-    @media screen and (max-width:1230px){
+    @media screen and (max-width:992px){
         .body{
-            .sectioninicio{
-                video {
-                    width: 100vw;
-                    height: 20vh;
+            .header{
+                .padrelogo{
+                    h1{
+                        font-size: 60px;
+                    }
+                    
                 }
-            
             }
         }
     }
-
-
 
 
 
@@ -422,4 +421,83 @@
             }
         }
         
+    }
+
+    @media screen and (max-width:840px){
+        .body{
+            .header{
+                .nav{
+                    ul{
+                        gap: 35px;
+                    }
+                }
+                .padrelogo{
+                    h1{
+                        font-size: 45px;
+                    }
+                }
+                
+            }
+            main{
+                .textinicio{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+
+
+
+
+    @media screen and (max-width:730px) {
+        .body{
+            .header{
+                .nav{
+                    ul{
+                        gap: 25px;
+                    }
+                }
+            }
+            main{
+                .textinicio{
+                    font-size: 13px;
+                    padding-top: 35px;
+
+                }
+            }
+        }
+
+    }
+
+    @media screen and (max-width:600px){
+        .body{
+            main{
+                .textinicio{
+                    padding-top: 20px;
+                }
+            }
+            .header{
+                .padrelogo{
+                    h1{
+                        font-size: 35px;
+                    }
+                }
+                .nav{
+                    ul{
+                        gap: 20px;
+                        a{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    @media screen and (max-width:575px){
+        .body{
+
+        }
     }
