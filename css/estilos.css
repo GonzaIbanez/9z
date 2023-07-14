@@ -253,22 +253,34 @@
 }
 
 /*Contacto*/
-.maincontacto {
-  background-color: white;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-.formcontact {
+.hijoform {
   display: flex;
-  background-color: white;
-  width: 400px;
   justify-content: center;
-  transform: translate(-50%, -50%);
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 500px;
+  align-items: center;
 }
 
-.contact {
-  overflow: hidden;
-  color: gray;
+.contacto {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  background-color: black;
+  gap: 10px;
+}
+
+.maincontacto {
+  display: flex;
+  justify-content: center;
+}
+.maincontacto h2 {
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Tamaño tablet */
