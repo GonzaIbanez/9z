@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="../Imagenes/9zteam_logo.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="shortcut icon" href="Imagenes/9zteam_logo.png" type="image/x-icon">
@@ -13,11 +14,13 @@
 
 <body class="body">
     <header class="header">
-        <div class="logoprincipal">
-            <img id="Logo9z" src="../Imagenes/9zteam_logo.png" alt="logo sitio">
+        <div class="padrelogo">
+            <div class="logoprincipal">
+                <img id="Logo9z" src="../Imagenes/9zteam_logo.png" alt="logo sitio">
+            </div>
+            <h1>CONTACTO</h1>
         </div>
-        <h1>CONTACTO</h1>
-        <nav>
+        <nav class="nav">
             <ul>
                 <li><a href="../index.html">INICIO</a></li>
                 <li><a href="../Paginas/Jugadores.html">JUGADORES</a></li>
@@ -33,16 +36,16 @@
         <div class="hijoform">
             <form action="" class="contacto" method="POST">
                 <label for="nombres">NOMBRE</label>
-                <input type="text" name="nombres" >
-                
+                <input type="text" name="nombres">
+
                 <label for="correo">CORREO</label>
-                <input type="text" name="correo" >
-                
+                <input type="text" name="correo">
+
                 <label for="nombres">CELULAR</label>
-                <input type="text" name="celular" >
-                
+                <input type="text" name="celular">
+
                 <label for="mensaje">MENSAJE</label>
-                <textarea name="mensaje" ></textarea>
+                <textarea name="mensaje"></textarea>
                 <input type="submit" value="Enviar">
             </form>
         </div>

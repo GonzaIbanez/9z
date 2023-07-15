@@ -244,6 +244,7 @@
   padding-right: 20px;
   text-align: left;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 40px;
 }
 
 .textlogros2 {
@@ -252,6 +253,7 @@
   padding-right: 20px;
   text-align: left;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 50px;
 }
 
 .textlogrosh2 {
@@ -259,7 +261,7 @@
   font-size: 25px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: left;
-  padding-top: 150px;
+  padding-top: 200px;
 }
 
 /*Contacto*/
@@ -399,6 +401,106 @@
     font-size: 15px;
   }
 }
+/*Media Queries Logros*/
+@media screen and (max-width: 1500px) {
+  .body .hijo1 {
+    width: 50%;
+  }
+  .body .hijo2 {
+    width: 50%;
+  }
+  .body .textlogros1 {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  .body .textlogros2 {
+    font-size: 20px;
+  }
+  .body .textlogrosh2 {
+    padding-top: 60px;
+  }
+}
+@media screen and (max-width: 1270px) {
+  .body .textlogros2 {
+    padding-bottom: 40px;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .body .textlogros1 {
+    font-size: 14px;
+  }
+  .body .textlogros2 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 870px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+  .body .hijo1 {
+    width: 60%;
+  }
+  .body .hijo1 .logrosimg1 {
+    padding-bottom: 70px;
+  }
+  .body .hijo2 {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .body .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .body .main .textlogros1 {
+    padding-right: 0px;
+  }
+  .body .main .hijo1 {
+    width: 90%;
+  }
+  .body .main .hijo1 .logrosimg1 {
+    padding-bottom: 20px;
+  }
+  .body .main .hijo2 {
+    align-items: center;
+    width: auto;
+  }
+  .body .main .hijo2 h2 {
+    padding-left: 80px;
+    font-size: 20px;
+  }
+}
 /* Media Queries Jugadores*/
+@media screen and (max-width: 540px) {
+  .body .main2 .contjugadores .Dgtfoto {
+    width: 350px;
+  }
+  .body .main2 .contjugadores .Tryfoto {
+    width: 350px;
+  }
+  .body .main2 .contjugadores .Budafoto {
+    width: 240px;
+    padding-left: 20px;
+  }
+  .body .main2 .contjugadores .Maxfoto {
+    width: 250px;
+  }
+  .body .main2 .contjugadores .Dav1dfoto {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 486px) {
+  .body .header .nav ul a {
+    font-size: 13px;
+  }
+}
+/*Media Queries Contacto*/
+@media screen and (max-width: 750px) {
+  .body .maincontacto {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
