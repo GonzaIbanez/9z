@@ -357,14 +357,46 @@
   .body main .sectioninicio {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .body main .sectioninicio .hijo1 {
-    width: 85%;
+    width: 70%;
   }
   .body main .sectioninicio .hijo2 .textinicio {
     font-size: 20px;
     align-items: center;
     text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .body main .sectioninicio .hijo2 .textinicio {
+    font-size: 15px;
+    padding-bottom: 30px;
+  }
+  .body .header .nav ul {
+    gap: 15px;
+  }
+  .body .header .nav ul a {
+    font-size: 14px;
+  }
+  .body .header .padrelogo h1 {
+    font-size: 30px;
+  }
+}
+/*Media Queries Galeria*/
+@media screen and (max-width: 600px) {
+  .body .hijogale .probando1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .body .hijogale .probando2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 440px) {
+  .body .Footer .h3 {
+    font-size: 15px;
   }
 }
 /* Media Queries Jugadores*/

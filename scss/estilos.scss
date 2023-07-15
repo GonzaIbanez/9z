@@ -509,8 +509,9 @@
                 .sectioninicio{
                     display: flex;
                     flex-direction: column;
+                    align-items: center;
                     .hijo1{
-                        width: 85%;
+                        width: 70%;
                     }
                     .hijo2{
                         .textinicio{
@@ -521,15 +522,78 @@
                     }
                 }
         }
-
-
         }
     }
 
 
+
+    @media screen and (max-width:480px){
+        .body{
+            main{
+                .sectioninicio{
+                    .hijo2{
+                        .textinicio{
+                            font-size: 15px;
+                            padding-bottom: 30px;
+                        }
+                    }
+                }
+            }
+            .header{
+                .nav{
+                    ul{
+                        gap: 15px;
+                        a{
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .padrelogo{
+                    h1{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+        }
+
+
+        /*Media Queries Galeria*/
+        @media screen and (max-width:600px){
+            .body{
+                .hijogale{
+                    .probando1{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .probando2{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width:440px){
+            .body{
+                .Footer{
+                    .h3{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+
+
+
+
+
+
     /* Media Queries Jugadores*/
 
-    
+    @media screen and (max-width:840px){
+
+    }
 
 
 
