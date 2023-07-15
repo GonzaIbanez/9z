@@ -213,15 +213,15 @@
     .maxydavid {
         display: flex;
         justify-content: center;
-        padding-left: 25%;
         gap: 80px;
         padding-bottom: 40px;
+        flex-wrap: wrap;
     }
     .dgttry{
         display: flex;
         justify-content: center;
-        padding-left: 20%;
         gap: 60px;
+        flex-wrap: wrap;
     }
 
     .pbuda{
@@ -384,7 +384,7 @@
 
 
 
-    /* Media Queries */
+    /* Media Queries Inicio */
 
     @media screen and (max-width:1500px) {
         .body {
@@ -503,12 +503,33 @@
     }
 
 
-    @media screen and (max-width:575px){
+    @media screen and (max-width:550px){
         .body{
+            main{
+                .sectioninicio{
+                    display: flex;
+                    flex-direction: column;
+                    .hijo1{
+                        width: 85%;
+                    }
+                    .hijo2{
+                        .textinicio{
+                            font-size: 20px;
+                            align-items: center;
+                            text-align: center;
+                        }
+                    }
+                }
+        }
+
 
         }
     }
 
+
+    /* Media Queries Jugadores*/
+
+    
 
 
 
