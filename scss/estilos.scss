@@ -74,13 +74,19 @@
         }
 
         /*Main*/
-        main {
+        .maininicio {
             display: flex;
             flex-direction: column;
             video{
                 width: 100vw;
                 height: 40vh;
             }
+        }
+
+        .main{
+            display: flex;
+            background-color: black;
+            gap: 50px;
         }
 
         .victoria {
@@ -348,6 +354,7 @@
 .maincontacto {
     display: flex;
     justify-content: center;
+    background-color: black;
     h2 {
         color: white;
         align-items: center;
@@ -501,3 +508,8 @@
 
         }
     }
+
+
+
+
+

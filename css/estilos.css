@@ -54,13 +54,18 @@
 .body .main2 {
   background-color: black;
 }
-.body main {
+.body .maininicio {
   display: flex;
   flex-direction: column;
 }
-.body main video {
+.body .maininicio video {
   width: 100vw;
   height: 40vh;
+}
+.body .main {
+  display: flex;
+  background-color: black;
+  gap: 50px;
 }
 .body .victoria {
   width: 100%;
@@ -278,6 +283,7 @@
 .maincontacto {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 .maincontacto h2 {
   color: white;
